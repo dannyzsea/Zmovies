@@ -1,11 +1,12 @@
 
-import React from "react"
-import './App.css';
+import React from "react";
+import Jumbotron from "./Components/jumbotron";
 
 function App() {
   return (
     <div className="App">
-      Hello
+<Jumbotron/>
+     
     </div>
   );
 }

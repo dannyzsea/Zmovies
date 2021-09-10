@@ -9,7 +9,10 @@ function App() {
 <Jumbotron.Container>
 {jumboData.map((item)=>(
 <Jumbotron key={item.id}>
-  <p>Hello I am a child</p>
+  <p>{item.title}</p>
+  <p>{item.subTitle}</p>
+  <p>{item.image}</p>
+  <p>{item.alt}</p>
 </Jumbotron>
 ))}
 </Jumbotron.Container>

@@ -4,7 +4,7 @@ import {Inner,Container} from "./styles/jumbtron";
 function Jumbotron({direction='row', ...restProps}){
     return(
       <Inner direction={direction}>
-          Hello world.
+          <h1>Hello</h1>
       </Inner>
     )
 
